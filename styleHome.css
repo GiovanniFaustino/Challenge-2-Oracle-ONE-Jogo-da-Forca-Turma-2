@@ -44,6 +44,7 @@
 }
 
 .palavra-secreta-container {
+    cursor:pointer;
     font-family:cursive;
     font-size: 60px;
     font: bold;
