@@ -1,0 +1,186 @@
+.body {
+    position: relative;
+    width:auto;
+    height: auto;
+    border-radius: 0px;
+    background: #F3F5FC;    
+}
+
+.alura {
+    position:absolute;
+    height: 48px;
+    width: 31.090px;
+    left: 10px;
+    top: 10px;
+    border-radius: 0px;    
+}
+
+.panoDeFundo {
+    position: absolute;
+    left:1px;
+    width: 1200px;;
+    height: 860px;
+}
+
+.jogoDaForca {   
+    font-family:cursive;
+    font-size: large;
+    font-size: 40px;
+    color: #c71111; 
+    position: absolute;
+    top: 75px;
+    left: 500px;
+}
+
+.pista {
+    cursor:default;
+    font-family:cursive;
+    font-size: 20px;
+    font: bold;
+    color: #131212;
+    position: absolute;
+    top: 425px;
+    left: 120px;
+}
+
+.palavra-secreta-container {
+    font-family:cursive;
+    font-size: 60px;
+    font: bold;
+    color:#0e0d0d;
+    position: absolute;
+    top: 350px;
+    left: 360px;
+}
+
+.palavra-secreta-container span {
+    margin: 0 5px;
+}
+
+.letras-erradas-container {
+    font-family:cursive;
+    font-size: 32px;
+    font: bold;
+    color: #c71111;
+    position: absolute;
+    top: 450px;
+    left: 500px;
+
+}
+
+.letras-erradas-container span {
+    margin: 0 8px;
+}
+
+.jogoForca {
+    position: absolute;
+    opacity: 0.2;
+    width: 200px;
+    height:400px;
+    left: 550px;
+    top:140px
+
+}
+
+.popup-container {
+    background-color: rgba(232, 243, 232, 0.623);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup {
+    background-color: #afd1e7;
+    border-radius: 10px;
+    box-shadow: 0 20px 15px 6px rgba(7, 7, 7, 0.1);
+    padding: 40px;
+    text-align: center;
+}
+
+.popup button {
+    cursor: pointer; 
+    background-color: #fff;
+    color: #101111;
+    font-family:cursive;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 20px;
+}
+
+.popup button:active {
+    transform: scale(0.98);
+}
+
+.popup button:focus {
+    outline: 0;
+}
+
+.notification-container {
+    background-color: rgba(205, 35, 35, 0.3);
+    border-radius: 100px 100px 100px 100px;
+    padding: 20px 20px;
+    position: absolute;
+    display: none;
+    left: 600px;
+    bottom: 10px;
+    transition: transform 0.6s ease-in-out;  
+}
+
+.notification-container p {
+    margin: 0;
+}
+
+.notification-container.show {   
+    display: block; 
+    transform: translateY(-400px) 
+}
+
+.final-message{
+    font-family:cursive;
+    font-size: 20px;
+}
+
+.input-texto {   
+    position: relative;
+    font-display:center;
+    font-size: 30px;
+    border-style: none;
+    top:200px;
+    left: 450px;
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    place-content: 10px;
+}
+
+.nome {  
+    position:absolute;
+    top: 700px;
+    left: 512px;
+    font-size: 15px;
+    color: #000000;
+}
+
+.github {   
+    position:absolute;
+    width: 2%;
+    top:720px;
+    left: 625px;
+    color: #000000;
+}
+
+.linkedin {   
+    position:absolute;
+    width: 2%;
+    top: 720px;
+    left: 665px;
+    color: #000000;
+}

@@ -1,0 +1,195 @@
+.jogar {   
+    cursor:pointer;
+    font-family: 'Inter';
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #c71111; 
+    order: 0;
+    
+    position: absolute;
+    background-color: #183c68;
+    width: 300px;
+    height: 10px;
+    left: 500px;
+    top: 580px;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 8px; 
+}
+
+.desistirJogo {  
+    cursor:pointer;
+    font-family: 'Inter';
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color:#c71111; 
+    order: 0;
+    
+    position: absolute;
+    background-color: #183c68;
+    width: 300px;
+    height: 10px;
+    left: 500px;
+    top: 640px;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 8px; 
+}
+
+.comecar {    
+    cursor:pointer;  
+    font-family: 'Inter';
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #c71111; 
+    order: 0;
+    
+    position: absolute;
+    background-color: #183c68;
+    width: 300px;
+    height: 10px;
+    left: 500px;
+    top: 570px;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 8px; 
+}
+
+.desistir {    
+    cursor:pointer;
+    font-family: 'Inter';
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: #0e0d0d; 
+    order: 0;
+    
+    position: absolute;
+    background-color: #b9c0c9;
+    width: 300px;
+    height: 10px;
+    left: 650px;
+    top: 350px;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 8px; 
+}
+
+.adicionarPalavra1 {   
+    cursor:pointer;
+    font-family: 'Inter';
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #c71111; 
+    order: 0;
+    
+    position: absolute;
+    background-color: #183c68;
+    width: 300px;
+    height: 10px;
+    left: 500px;
+    top: 640px;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 8px; 
+}
+
+.adicionarPalavra {  
+    cursor:pointer;
+    font-family: 'Inter';
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color:#c71111; 
+    order: 0;
+    
+    position: absolute;
+    background-color: #183c68;
+    width: 300px;
+    height: 10px;
+    left: 670px;
+    top: 640px;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 8px; 
+}
+
+.menuInicial {   
+    cursor:pointer;  
+    font-family: 'Inter';
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color:#c71111; 
+    order: 0;
+    
+    position: absolute;
+    background-color: #183c68;
+    width: 300px;
+    height: 10px;
+    left: 360px;
+    top: 640px;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 8px; 
+} 

@@ -1,0 +1,54 @@
+.baseForca{
+    position: absolute;
+    top: 410px;
+    left: 40px;
+}
+
+.forcaMaior {
+    position: absolute;
+    top: 55px;
+    left: 160px;
+}
+
+.forcaSuperior {
+    position: absolute;
+    top: 55px;
+    left: 160px;
+}
+
+.forcaCabeca {
+    position: absolute;
+    top: 55px;
+    left: 333px;
+}
+ 
+#cabeca {
+    position: absolute;
+    top: 103px;
+    left: 305px;
+}
+#corpo {
+    position: absolute;
+    top: 165px;
+    left: 333px;
+}
+#bracoDireito {
+    position: absolute;
+    top: 195px;
+    left: 335px; 
+}
+#bracoEsquerdo {
+    position: absolute;
+    top: 195px;
+    left: 298px; 
+}
+#pernaDireita {
+    position: absolute;
+    top: 297px;
+    left: 334px; 
+}
+#pernaEsquerda {
+    position: absolute;
+    top: 297px;
+    left: 298px; 
+}

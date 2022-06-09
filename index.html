@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styleHome.css">
+        <link rel="stylesheet" href="botoes.css">
+        <link rel="stylesheet" href="forca.css">
+        <title>Jogo da Forca</title>
+    </head>
+    <body class="body">
+    <img src="imagens/FolhaDeCaderno.jpg" class="panoDeFundo">
+        <header>
+           <img src="imagens/logoalura.png" class="alura" alt="Logo da alura com a letra inicial a">
+        </header>        
+        <main> 
+            <h1 class="jogoDaForca">JOGO DA FORCA</h1>             
+            <div  id="letras-erradas" class="letras-erradas"></div>           
+            <!-- forca-->
+            <div class="container1">
+                <button id="desistirJogo" class="desistirJogo" onclick="btnDesitirJogo()">Desistir do Jogo</button>
+                <img src="imagens/baseForca.png" class="baseForca">
+                <img src="imagens/forcaMaior.png" class="forcaMaior">
+                <img src="imagens/forcaSuperior.png" class="forcaSuperior">
+                <img src="imagens/forcaCabeca.png" class="forcaCabeca"> 
+            <!--Partes do Corpo-->  
+                <div id="cabeca" class="parte-figura">
+                    <img src="imagens/cabeca.png">
+                </div>
+                <div id="corpo" class="parte-figura">
+                    <img src="imagens/corpo.png">
+                </div>
+                <div id="bracoDireito" class="parte-figura">
+                    <img src="imagens/bracoDireito.png">
+                </div>
+                <div id="bracoEsquerdo" class="parte-figura">
+                    <img src="imagens/bracoEsquerdo.png">
+                </div>
+                <div id="pernaDireita" class="parte-figura">
+                    <img src="imagens/PernaDireita.png">
+                </div> 
+                <div id="pernaEsquerda" class="parte-figura">
+                    <img src="imagens/PernaEsqueda.png">
+                </div>
+                <div class="pista" id="pista">("FRUTAS")</div>            
+                <div class="palavra-secreta-container" id="palavra-secreta-container"></div>                
+                <div class="letras-erradas-container" id="letras-erradas-container"></div>
+            </div>           
+            <div class="container2"> 
+                <img src="imagens/jogoForca.jpg" class="jogoForca">
+                <button  id="jogar" class="jogar" onclick="btnJogar()">Jogar</button> 
+                <button id="adicionarPalavra1" class="adicionarPalavra1" onclick="btnAdicionarPalavra1()">Adicionar nova Palavra</button>
+            </div>              
+            <div class="container3">
+                <textarea  id="input-texto" class="input-texto" maxlength="10" cols="20" rows="10" placeholder="ADICIONE A PALAVRA"></textarea>    
+                <button  id="menuInicial" class="menuInicial" onclick="btnMenuInicial()">Tela Inicial</button>         
+                <button id="adicionarPalavra" class="adicionarPalavra" onclick="btnAdicionarPalavra()">Adicionar nova Palavra</button>      
+            </div>
+            <div class="popup-container" id="popup-container">
+                <div class="popup" id="popup">
+                    <h2 id="final-message" class="final-message"></h2>
+                    <button id="play-button" class="poup" onclick="reiniciarJogo()">Jogar novamente</button>
+                </div>
+            </div>
+            <div id="notification-container" class="notification-container">
+                <p>Você já usou está letra!</p>
+            </div>
+        </main> 
+        <footer>
+            <p class="nome">&copy; Produzido por - Giovanni Faustino de Paula</p>
+            <p><A href="https://github.com/GiovanniFaustino"><img src="imagens/githubLink.png" class="github"></A><A href="https://www.linkedin.com/in/giovanni-de-paula-1a9b931ab/"><img src="imagens/linkedin.png" class="linkedin"></A></p>            
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html
